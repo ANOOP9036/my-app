@@ -1,0 +1,1 @@
+This application reads a list of words from an input text file, processes them according to specific business logic, and generates results in an output file. Both input and output files are managed within the resources folder of the project.

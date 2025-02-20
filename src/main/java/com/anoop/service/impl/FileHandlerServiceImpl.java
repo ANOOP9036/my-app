@@ -19,7 +19,7 @@ public class FileHandlerServiceImpl implements FileHandlerService {
 	
 	private static final String SEPARATOR = "----------------------------------------";
 	private static final String PREFIX = "m";
-	private static final int LENGTH_LIMIT = 5;
+	private static final int LENGTH_LIMIT = 5; 
 	
 	private static PropertiesConfig config = new PropertiesConfig();
 	private static Properties properties = config.loadProperties();;
