@@ -1,0 +1,19 @@
+Words longer than 5 characters : 
+Algorithm
+Machine
+Bandwidth
+Middleware
+Encryption
+Firewall
+Multithreading
+Hardware
+Interface
+magnificent
+Kernel
+Network
+Memory
+Operating System
+Processor
+Software
+----------------------------------------
+The NUMBER of words that start with "M" or "m": 8

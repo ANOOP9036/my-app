@@ -1,0 +1,4 @@
+com\anoop\service\FileHandlerService.class
+com\anoop\App.class
+com\anoop\config\PropertiesConfig.class
+com\anoop\service\impl\FileHandlerServiceImpl.class
