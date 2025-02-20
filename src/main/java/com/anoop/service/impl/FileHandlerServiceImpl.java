@@ -18,6 +18,8 @@ public class FileHandlerServiceImpl implements FileHandlerService {
 	private static final Logger logger = Logger.getLogger(FileHandlerServiceImpl.class.getName());
 	
 	private static final String SEPARATOR = "----------------------------------------";
+	private static final String PREFIX = "m";
+	private static final int LENGTH_LIMIT = 5;
 	
 	private static PropertiesConfig config = new PropertiesConfig();
 	private static Properties properties = config.loadProperties();;
@@ -48,9 +50,9 @@ public class FileHandlerServiceImpl implements FileHandlerService {
 		writer.write("Words longer than 5 characters : ");
 		writer.newLine();
 		while(word != null) {
-			if(word.toLowerCase().startsWith("m"))
+			if(word.toLowerCase().startsWith(PREFIX))
 				count++;
-			if(word.length() > 5) {
+			if(word.length() > LENGTH_LIMIT) {
 				writer.write(word);
 				writer.newLine();
 			}
